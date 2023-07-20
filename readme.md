@@ -1,4 +1,4 @@
-# KPI Visualizer - Simple and fun project to show Kpis on company TV :)
+# KPI Visualizer - Simple and fun project to show KPIs on company TV
 
 ## Table of Contents
 - [Introduction](#introduction)
