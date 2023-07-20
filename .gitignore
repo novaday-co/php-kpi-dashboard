@@ -1,4 +1,5 @@
 storage/kpi_data.json
+storage/metric_data.json
 vendor
 cache
 .env

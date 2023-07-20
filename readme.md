@@ -36,7 +36,7 @@ The dashboard categorizes different metrics and displays them in separate column
 
 1. Run php scripts with `php -S localhost:8000`
 2. Access the dashboard through your web server (e.g., http://localhost:8000).
-3. Change `kpi_data.json` like the example below :
+3. Add or change `kpi_data.json` in `storage` like the example below :
 ```
 [
     {
@@ -51,13 +51,23 @@ The dashboard categorizes different metrics and displays them in separate column
     },
 ]
 ```
+4. Add or change `metric_data.json` in `storage` like the example below :
+```
+[
+    {"name":"saas_income", "trend":"ascending","role":"admin"},
+    {"name":"seasonal_income", "trend":"ascending","role":"superadmin"},
+    {"name":"seasonal_cost", "trend":"descending","role":"superadmin"},
+    {"name":"monthly_cost", "trend":"descending","role":"superadmin"},
+    {"name":"employee_turnover", "trend":"ascending","role":"admin"}
+]
+```
 
 ## Technologies Used
 
 - PHP with clean and well-architected code.
 - Blade template engine for efficient and clean HTML rendering.
 - Chart.js for beautiful and interactive line charts.
-- JSON data storage for KPIs in `kpi_data.json`.
+- JSON data storage for KPIs in `kpi_data.json` & `metric_data.json`.
 - XAMPP or any web server with PHP support for local development.
 
 ## Contributing
