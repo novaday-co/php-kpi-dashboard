@@ -1,0 +1,44 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.kpi-column {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.kpi-column h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.kpi-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.kpi-column li {
+    margin-bottom: 5px;
+}

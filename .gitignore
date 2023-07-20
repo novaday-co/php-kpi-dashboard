@@ -1,0 +1,5 @@
+storage/kpi_data.json
+vendor
+cache
+.env
+composer.lock
