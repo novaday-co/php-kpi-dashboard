@@ -19,8 +19,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>{{ $companyName }} KPI Dashboard</h1>
-        <center><?php if(isset($_SESSION['authenticated'])){?><small class="logout"><a href="/?logout=true">Logout</a></small><?php }?></center>
+        <h1>{{ $companyName }} KPI Dashboard</h1><?php if(isset($_SESSION['authenticated'])){?><small class="logout"><a href="/?logout=true">Logout</a></small><?php }?>
         <div class="kpi-grid">
             @foreach ($groupedData as $metric => $data)
                 <div class="kpi-column">
